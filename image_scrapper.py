@@ -57,7 +57,7 @@ def main():
     Main function of the program.
     """
     # TODO: extract it to be provided as command line argument
-    path_with_names = "/home/joanna/PycharmProjects/photos_scrapper/images"
+    path_with_names = "./images"
     if not os.path.exists(path_with_names):
         print("Given path with names cannot be found.")
         return
