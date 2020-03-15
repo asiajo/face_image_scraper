@@ -13,3 +13,10 @@ Web scraper that fetches images with faces that look into the camera. It saves t
   <img src="https://user-images.githubusercontent.com/25400249/76702438-2ea1bd00-66ca-11ea-93ca-4b4b9a7feb7b.png" width="500"/>
 </p>
 
+## Notes:
+
+Developed and tested on Ubuntu 18.
+
+For usage:
+- browser Selenium plugin must be installed
+- path to Driver path must be updated
