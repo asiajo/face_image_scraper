@@ -1,6 +1,6 @@
-# Web photos scrapper
+# Web photos scraper
 
-Web scrapper that fetches images with faces that look into the camera. It saves them in the same size and resolution (currentlly 525 x 675 px) with head of approximately 70% of photo height.
+Web scraper that fetches images with faces that look into the camera. It saves them in the same size and resolution (currentlly 525 x 675 px) with head of approximately 70% of photo height.
 
 ## Planned Updates
 
