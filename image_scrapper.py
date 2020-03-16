@@ -30,10 +30,12 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
     if urls is None:
         return
 
+    i = 0
     for elem in urls:
         if elem is None:
             continue
-        download_image_verified(target_folder, elem)
+        i += 1
+        download_image_verified(target_folder, elem, '_'.join(search_term.lower().split(' ')).strip() + "_" + str(i))
 
 
 def get_names_to_fetch(files_path: str, filename: str):
